@@ -17,6 +17,6 @@
 		<move file="/tmp/${war_name}" todir="${jetty.home}/webapps/"/>
 
 		<!-- restart jetty context -->
-		<touch file="${jetty.home}/contexts/jforum-site.xml;"/>
+		<touch file="${jetty.home}/contexts/jforum-site.xml"/>
 	</target>
 </project>
