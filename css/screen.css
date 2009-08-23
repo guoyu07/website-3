@@ -86,11 +86,12 @@ body {
 			
 			/*codigo para identificar a seção atual*/
 			
-			ul.menu li a#btn_home_menu,ul.menu li a#btn_download_menu,ul.menu li a#btn_features_menu,ul.menu li a#btn_contactus_menu{
-				background-image:url(../imgs/btn_bg.png); 
+			ul.menu li a#btn_home_menu,ul.menu li a#btn_download_menu,ul.menu li a#btn_features_menu,ul.menu li a#btn_contactus_menu {
 				background-repeat:no-repeat; 
 				background-position:0 0;
-				}
+			}
+			
+			.current_page { background-image:url(../imgs/btn_bg.png);  }
 			
 			/*codigo para identificar quando o mouse hover estiver ativado*/
 			ul.menu li a:hover#btn_home_menu,ul.menu li a:hover#btn_download_menu,
@@ -308,7 +309,5 @@ body {
 			#hr_box #design_note {position:absolute; left:0px; top:10px;}
 			#hr_box #design_note img {border:none; margin-left:50px; }
 			#hr_box #design_note span {position:absolute; top:10px;}
-			
-			#hr_box #xhtmlizator_note {position:absolute; left:0px; top:40px;}
 			
 			#hr_box #copyright {position:absolute; right:0px; top:10px;} 
