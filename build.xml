@@ -7,7 +7,7 @@
 	<property name="jetty.home" value="/usr/share/jetty6"/>
 
 	<target name="assembly" description="--> assemblies the distribution">
-		<war destfile="${war_name}"><!--webxml="WEB-INF/web.xml"-->
+		<war destfile="${war_name}" needxmlfile="false"><!--webxml="WEB-INF/web.xml"-->
 			<fileset dir="."/>
 		</war>
 	</target>
