@@ -19,15 +19,15 @@ function show_big(image) {
 		<table width="100%" cellspacing="2">
 			<tr>
 				<td valign="top" width="33%">
-					<a href="#big" onclick="show_big('forum_listing_b.jpg');"><img src="screenshots/forum_listing_s.jpg"></a>
+					<a href="#big" border="0" onclick="show_big('forum_listing_b.jpg');"><img src="screenshots/forum_listing_s.jpg"></a>
 					
 				</td>
 				<td valign="top" width="33%">
-					<a href="#big" onclick="show_big('topic_listing_b.jpg');"><img src="screenshots/topic_listing_s.jpg"></a>
+					<a href="#big" border="0" onclick="show_big('topic_listing_b.jpg');"><img src="screenshots/topic_listing_s.jpg"></a>
 				</td>
 
 				<td valign="top" width="33%">
-					<a href="#big" onclick="show_big('posting_messages_b.jpg');"><img src="screenshots/posting_messages_s.jpg"></a>
+					<a href="#big" border="0" onclick="show_big('posting_messages_b.jpg');"><img src="screenshots/posting_messages_s.jpg"></a>
 				</td>
 			</tr>
 			
@@ -41,13 +41,13 @@ function show_big(image) {
 
 			<tr>
 				<td valign="top">
-					<a href="#big" onclick="show_big('reading_messages_b.jpg');"><img src="screenshots/reading_messages_s.jpg"></a>
+					<a href="#big" border="0" onclick="show_big('reading_messages_b.jpg');"><img src="screenshots/reading_messages_s.jpg"></a>
 				</td>
 				<td valign="top">
-					<a href="#big" onclick="show_big('config_form_b.jpg');"><img src="screenshots/config_form_s.jpg"></a>
+					<a href="#big" border="0" onclick="show_big('config_form_b.jpg');"><img src="screenshots/config_form_s.jpg"></a>
 				</td>
 				<td valign="top">
-					<a href="#big" onclick="show_big('member_listing_b.jpg');"><img src="screenshots/member_listing_s.jpg"></a> </td>
+					<a href="#big" border="0" onclick="show_big('member_listing_b.jpg');"><img src="screenshots/member_listing_s.jpg"></a> </td>
 			</tr>
 			
 			<tr>
@@ -60,15 +60,15 @@ function show_big(image) {
 
 			<tr>
 				<td valign="top">
-					<a href="#big" onclick="show_big('attaching_files_b.jpg');"><img src="screenshots/attaching_files_s.jpg"></a>
+					<a href="#big" border="0" onclick="show_big('attaching_files_b.jpg');"><img src="screenshots/attaching_files_s.jpg"></a>
 				</td>
 				<td valign="top">
 
-					<a href="#big" onclick="show_big('post_attach_b.jpg');"><img src="screenshots/post_attach_s.jpg"></a>
+					<a href="#big" border="0" onclick="show_big('post_attach_b.jpg');"><img src="screenshots/post_attach_s.jpg"></a>
 				</td>
 				<td valign="top">
-					<a href="#big" onclick="show_big('member_listing_b.jpg');"></a>
-					<a href="#big" onclick="show_big('online_users_b.jpg');"><img src="screenshots/online_users_s.jpg"></a></td>
+					<a href="#big" border="0" onclick="show_big('member_listing_b.jpg');"></a>
+					<a href="#big" border="0" onclick="show_big('online_users_b.jpg');"><img src="screenshots/online_users_s.jpg"></a></td>
 			</tr>
 			
 			<tr>

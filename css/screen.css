@@ -13,6 +13,13 @@ body {
 	background-color:#639EAD;	
 	}
 
+.highlightMacro {
+background-color:#F0F0F0;
+border:1px dashed #3C78B5;
+font-size:11px;
+padding-left:5px;
+}
+
 .fl {float:left;}
 .fr {float:right;}
 .mt{margin-top:10px;}

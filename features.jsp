@@ -7,22 +7,24 @@
 	
     <div id="cnt_cnt">
 		<%@include file="jforum_box.jsp"%>
-		
-        <p>
+
+	<div class="size1 fl text1">
+        	<h2>Features</h2>
+           	<p>
 			JForum has a growing number of features, with a lot more being asked and developed each day. Here you will find a list of the
 			most useful and common features currently available. Also, take a look <a href="screenshots.jsp">at some screenshots</a>.
 		</p>
 
 		<!-- Installation -->
-		<div class="blue-title">Installation</div>
-		<div><img src="images/hr.gif" width="100%" height="5"></div>
+		<div class="blue-title"><strong>Installation</strong></div>
+		<div><img src="imgs/bg_hr.png" width="100%" height="5"></div>
 		<ul class="ul-orange">
 			<li>Easy installation through graphical web interface </li>
 		</ul>
 
 		<!-- General -->
-		<div class="blue-title">General</div>
-		<div><img src="images/hr.gif" width="100%" height="5"></div>
+		<div class="blue-title"><strong>General</strong></div>
+		<div><img src="imgs/bg_hr.png" width="100%" height="5"></div>
 		<ul class="ul-orange">
 			<li>Unlimited forums, categories, and topics</li>
 			<li>Support for several popular databases, including MySQL, PostgreSQL, Oracle and HSQLDB</li>
@@ -36,8 +38,8 @@
 		</ul>
 
 		<!-- Posting Messages -->
-		<div class="blue-title">Posting Messages</div>
-		<div><img src="images/hr.gif" width="100%" height="5"></div>
+		<div class="blue-title"><strong>Posting Messages</strong></div>
+		<div><img src="imgs/bg_hr.png" width="100%" height="5"></div>
 		<ul class="ul-orange">
 			<li>File Attachments, with fully customizable options</li>
 			<li>HTML and BBCode support</li>
@@ -51,8 +53,8 @@
 		</ul>
 
 		<!-- Moderation -->
-		<div class="blue-title">Moderation</div>
-		<div><img src="images/hr.gif" width="100%" height="5"></div>
+		<div class="blue-title"><strong>Moderation</strong></div>
+		<div><img src="imgs/bg_hr.png" width="100%" height="5"></div>
 		<ul class="ul-orange">
 			<li>Easy to moderate</li>
 			<li>Moderated Categories and Forums - Administrators may allow new messages be posted only after the approval of some moderator or administrator </li>
@@ -61,8 +63,8 @@
 		</ul>
 
 		<!-- Permissions & Security -->
-		<div class="blue-title">Permissions & Security</div>
-		<div><img src="images/hr.gif" width="100%" height="5"></div>
+		<div class="blue-title"><strong>Permissions & Security</strong></div>
+		<div><img src="imgs/bg_hr.png" width="100%" height="5"></div>
 		<ul class="ul-orange">
 			<li>Read-only forums - Forums where is not possible to post new messages, just reading </li>
 			<li>Reply-only forums - Forums where only reply to existing posts are allowed</li>
@@ -72,8 +74,8 @@
 		</ul>
 
 		<!-- Customization & Extensiblity -->
-		<div class="blue-title">Customization & Extensiblity</div>
-		<div><img src="images/hr.gif" width="100%" height="5"></div>
+		<div class="blue-title"><strong>Customization & Extensiblity</strong></div>
+		<div><img src="imgs/bg_hr.png" width="100%" height="5"></div>
 		<ul class="ul-orange">
 			<li>Easy and fast development for any other data source</li>
 			<li>Familiar and attractive layout</li>
@@ -85,8 +87,8 @@
 		</ul>
 
 		<!-- Users -->
-		<div class="blue-title">Users</div>
-		<div><img src="images/hr.gif" width="100%" height="5"></div>
+		<div class="blue-title"><strong>Users</strong></div>
+		<div><img src="imgs/bg_hr.png" width="100%" height="5"></div>
 		<ul class="ul-orange">
 			<li>Member Listing</li>
 			<li>User defined avatars</li>
@@ -97,6 +99,9 @@
 			<li>Language preferences may be set on a per user basis</li>
 			<li>Remembers last read messages and tracks new posts</li>
 		</ul>
+        </div><!-- size 1-->
+		
+        
     </div><!-- cnt cnt -->
 </div><!-- content wrapper -->
 
