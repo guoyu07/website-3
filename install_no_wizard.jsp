@@ -48,35 +48,36 @@
 
 <p>Open the file WEB-INF/config/SystemGlobals.properties. Now search for a key named database.driver.name and configure it according to the following table:</p>
 
-<table align="center" bgcolor="#3aa315" cellspacing="2" width="70%">
-					<tbody><tr>
-						<th class="th-header">Database</th>
-						<th class="th-header">Key value </th>
-					</tr>
-
-	
-					<tr class="fields">
-						<td align="center">MySQL</td>
-						<td>mysql</td>
-					</tr>
-	
-					<tr class="fields">
-						<td align="center">PostgreSQL</td>
-						<td>postgresql</td>
-
-					</tr>
-	
-					<tr class="fields">
-						<td align="center">HSQLDB</td>
-						<td>hsqldb</td>
-					</tr>
-	
-					<tr class="fields">
-						<td align="center">Oracle</td>
-
-						<td>oracle</td>
-					</tr>
-				</tbody></table>	
+<table summary="">
+			<caption></caption>
+			<thead>
+				<tr>
+					<th scope="col">Database</th>
+					<th scope="col">Key value</th>
+				</tr>
+			</thead>	
+			<tfoot>
+				<tr></tr>
+			</tfoot>
+			<tbody>
+				<tr>
+					<th scope="row">MySQL</th>
+					<td>mysql</td>
+				</tr>
+				<tr class="odd">
+					<th scope="row">PostgreSQL</th>
+					<td>postgresql</td>
+				</tr>
+				<tr>
+					<th scope="row">Oracle</th>
+					<td>oracle</td>
+				</tr>
+				<tr class="odd">
+					<th scope="row">HSQLDB</th>
+					<td>hsqldb</td>
+				</tr>
+		</tbody>		
+		</table>
 
 <p>The default value is mysql, which means JForum will try to use MySQL. Note that the value should be in lowercase.</p>
 
@@ -84,65 +85,67 @@
 
 <p>By default JForum uses a connection pool, option which is specified by the key database.connection.implementation. The following table shows the possible values for this key:</p> 
 
-<table align="center">
-		<tbody><tr>
-			<td><table align="center" bgcolor="#3aa315" cellspacing="2" width="100%">
-					<tbody><tr>
-						<th class="th-header">Connection Storage Type</th>
-						<th class="th-header">Key value </th>
-
-					</tr>
-					<tr class="fields">
-						<td align="center">Pooled Connections</td>
-						<td><i>net.jforum.PooledConnection</i></td>
-					</tr>
-					<tr class="fields">
-						<td align="center">Simple Connections</td>
-
-						<td><i>net.jforum.SimpleConnection</i></td>
-					</tr>
-					<tr class="fields">
-						<td align="center">DataSource Connections</td>
-						<td><i>net.jforum.DataSourceConnection</i></td>
-					</tr>
-			</tbody></table></td>
-
-		</tr>
-	</tbody></table>
+<table summary="">
+			<caption></caption>
+			<thead>
+				<tr>
+					<th scope="col">Connection storage type</th>
+					<th scope="col">Key value</th>
+				</tr>
+			</thead>	
+			<tfoot>
+				<tr></tr>
+			</tfoot>
+			<tbody>
+				<tr>
+					<th scope="row">Pooled Connections</th>
+					<td><i>net.jforum.PooledConnection</i></td>
+				</tr>
+				<tr class="odd">
+					<th scope="row">Simple Connections</th>
+					<td><i>net.jforum.SimpleConnection</i></td>
+				</tr>
+				<tr>
+					<th scope="row">DataSource Connections</th>
+					<td><i>net.jforum.DataSourceConnection</i></td>
+				</tr>
+		</tbody>		
+		</table>
 
 <p>If you have chosen <i>net.jforum.DataSourceConnection</i>, then set the name of the datasource in key <i>database.datasource.name</i>, and ignore the table below. Otherwise, do the following steps:</p>
 <p>Edit the file <i>WEB-INF/config/database/&lt;DBNAME&gt;/&lt;DBNAME&gt;.properties</i>, where <i>&lt;DBNAME&gt;</i> is the database name you are using - for instance, mysql, postgresql or hsqldb. In this file there are some options you should change, according to the table below: </p>
 
 
-	<table align="center">
-		<tbody><tr>
-			<td><table align="center" bgcolor="#3aa315" cellspacing="2" width="70%">
-					<tbody><tr>
-						<th class="th-header">Key name</th>
-						<th class="th-header">key value description</th>
-					</tr>
-					<tr class="fields">
-
-						<td align="center">database.connection.username</td>
-						<td><i>Database username</i></td>
-					</tr>
-					<tr class="fields">
-						<td align="center">database.connection.password</td>
-						<td><i>Database password</i></td>
-					</tr>
-
-					<tr class="fields">
-						<td align="center">database.connection.host</td>
-						<td><i>The host where the database is located</i></td>
-					</tr>
-					<tr class="fields">
-						<td align="center">dbname</td>
-						<td><i>The database name. The default value is jforum. All JForum tables are preceded by "jforum_", so you don't need to worry about conflicting table names.</i></td>
-
-					</tr>
-			</tbody></table></td>
-		</tr>
-	</tbody></table>
+	<table summary="">
+			<caption></caption>
+			<thead>
+				<tr>
+					<th scope="col">Key name</th>
+					<th scope="col">Key value description</th>
+				</tr>
+			</thead>	
+			<tfoot>
+				<tr></tr>
+			</tfoot>
+			<tbody>
+				<tr>
+					<th scope="row">database.connection.username</th>
+					<td><i>Database username</i></td>
+				</tr>
+				<tr class="odd">
+					<th scope="row">database.connection.password</th>
+					<td><i>Database password</i></td>
+				</tr>
+				<tr>
+					<th scope="row">database.connection.host</th>
+					<td>The host where the database is located</td>
+				</tr>
+				<tr class="odd">
+					<th scope="row">dbname</th>
+					<td>The database name. The default value is jforum. All JForum tables are preceded by "jforum_", so you don't need to worry about conflicting table names.</td>
+				</tr>
+		</tbody>		
+		</table>
 
 <p>The other properties you may leave with the default values if you don't know what to put.</p>
 

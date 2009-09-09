@@ -26,7 +26,7 @@
         </div><!-- quick box -->
         <div id="hr_box">
         	<div id="design_note"><span>Design by:</span><a href="http://blogfullbliss.com/"><img src="imgs/blogfullbliss_logo.png" /></a></div>
-            <p id="copyright">Copyright &copy;  The jforum Team |  All Rights Reserved </p>
+            <p id="copyright">Copyright &copy;  <a href="team.jsp">The JForum Team</a> |  All Rights Reserved </p>
         </div><!-- hr box -->
     </div><!-- footer wrapper cnt-->
 </div><!-- footer wrapper-->

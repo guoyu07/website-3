@@ -55,134 +55,98 @@
 
 <p>Please read carefully the fields' tips, since they contain valuable information. Below is a little explanation of each field:</p>
 
-<table align="center">
-		<tbody><tr>
-			<td>
-
-				<table bgcolor="#3aa315" cellspacing="2" width="100%">
-					<tbody><tr>
-						<th class="th-header" width="30%">Field Name</th>
-						<th class="th-header">Required</th>
-						<th class="th-header">Description</th>
-					</tr>
-	
-					<tr class="fields">
-
-						<td>Default Board Language</td>
-						<td align="center">Yes</td>
-						<td>The language to display the messages in the forum. Note that, if the translation for some text is not available,
+<table summary="">
+			<caption></caption>
+			<thead>
+				<tr>
+					<th scope="col">Field name</th>
+					<th scope="col">Required</th>
+					<th scope="col">Description</th>
+				</tr>
+			</thead>	
+			<tfoot>
+				<tr></tr>
+			</tfoot>
+			<tbody>
+				<tr>
+					<th scope="row">Default Board Language</th>
+					<td>Yes</td>
+					<td>The language to display the messages in the forum. Note that, if the translation for some text is not available,
 							an English text will be used</td>
-					</tr>
-	
-					<tr class="fields">
-						<td>Database Type</td>
-						<td align="center">Yes</td>
-
-						<td>The database server to use. If you don't know which one to choose, select "HSQLDB" from the list</td>
-					</tr>
-	
-					<tr class="fields">
-						<td>Installation Type</td>
-						<td align="center">Yes</td>
-						<td>Installation mode. Currently only "New Installation" is supported</td>
-					</tr>
-
-	
-					<tr class="fields">
-						<td>Connection type</td>
-	
-						<td align="center">Yes</td>
-						<td>Which method to use to connect to database. <i>Native</i> will use regular connections, while <i>DataSource</i> will try
+				</tr>
+				<tr class="odd">
+					<th scope="row">Database Type</th>
+					<td>Yes</td>
+					<td>The database server to use. If you don't know which one to choose, select "HSQLDB" from the list</td>
+				</tr>
+				<tr>
+					<th scope="row">Installation Type</th>
+					<td>Yes</td>
+					<td>Installation mode. Currently only "New Installation" is supported</td>
+				</tr>
+				<tr class="odd">
+					<th scope="row">Connection type</th>
+					<td>Yes</td>
+					<td>Which method to use to connect to database. <i>Native</i> will use regular connections, while <i>DataSource</i> will try
 						to connect using the specified datasource name</td>
-
-					</tr>
-	
-					<tr class="fields">
-	
-						<td>DataSource name</td>
-						<td align="center">no</td>
-						<td>If you chosen <i>DataSource</i> as Connection Type, then inform the name of the datasource</td>
-					</tr>
-
-	
-					<tr class="fields">
-	
-						<td>Database Server Hostname</td>
-						<td align="center">Yes</td>
-						<td>The host where the database is located</td>
-					
-	
-					</tr>
-					
-					<tr class="fields">
-						<td>Database Name</td>
-
-						<td align="center">Yes</td>
-	
-						<td>
+				</tr>
+				<tr>
+					<th scope="row">DataSource name</th>
+					<td>No</td>
+					<td>If you chosen <i>DataSource</i> as Connection Type, then inform the name of the datasource</td>
+				</tr>
+				<tr class="odd">
+					<th scope="row">Database Server Hostname</th>
+					<td>Yes</td>
+					<td>The host where the database is located</td>
+				</tr>
+				<tr>
+					<th scope="row">Database Name</th>
+					<td>Yes</td>
+					<td>
 							<p>Where the tables will be created. <b>Note that the database should already exist</b>.</p>
 							<p>If you're going go use HSQLDB, no extra configuration is needed, since it is created on the fly</p>
-							<p>If you are using Oracle, you probably will have to enter the SID here.</p>
-						</td>
-
-					</tr>
-	
-					<tr class="fields">
-						<td>Database username</td>
-						<td align="center">No*</td>
-						<td>The user of your database instance. *This field is required for databases other than HSQLDB</td>
-	
-					</tr>
-	
-					<tr class="fields">
-
-						<td>Database Password</td>
-						<td align="center">No</td>
-						<td>The database password, if any. Please note that errors may occur when not using any password</td>
-					</tr>
-	
-					<tr class="fields">
-						<td>Database Encoding</td>
-						<td align="center">No</td>
-
-						<td>The text encoding for the database. You can specify it by hand in the "Other" field</td>
-					</tr>
-	
-					<tr class="fields">
-						<td>Use Connection Pool</td>
-	
-						<td align="center">Yes</td>
-						<td>In case of doubt, choose <b>No</b></td>
-
-					</tr>
-	
-					<tr class="fields">
-						<td>Forum Link</td>
-						<td align="center">Yes</td>
-	
-						<td>The link to the forum context. If you are hosting it under some "real" domain and the context path is "/", 
-							the "Forum Link" will be the address of your site, in most cases. 
-						</td>
-					</tr>
-	
-					<tr class="fields">
-
-						<td>Website Link</td>
-						<td align="center">Yes</td>
-						<td>The link to your website.</td>
-	
-					</tr>
-	
-					<tr class="fields">
-						<td>Administrator Password</td>
-						<td align="center">Yes</td>
-
-						<td>Type the password of the administrator (<i>Admin</i> user). </td>
-					</tr>
-				</tbody></table>
-			</td>
-		</tr>
-	</tbody></table>
+							<p>If you are using Oracle, you probably will have to enter the SID here.</p></td>
+				</tr>
+				<tr class="odd">
+					<th scope="row">Database username</th>
+					<td>No*</td>
+					<td>The user of your database instance. *This field is required for databases other than HSQLDB</td>
+				</tr>
+				<tr>
+					<th scope="row">Database Password</th>
+					<td>No</td>
+					<td>The database password, if any. Please note that errors may occur when not using any password</td>
+				</tr>
+				<tr class="odd">
+					<th scope="row">Database Encoding</th>
+					<td>No</td>
+					<td>The text encoding for the database. You can specify it by hand in the "Other" field</td>
+				</tr>
+				<tr>
+					<th scope="row">Use Connection Pool</th>
+					<td>Yes</td>
+					<td>In case of doubt, choose <b>No</b></td>
+				</tr>
+				<tr class="odd">
+					<th scope="row">Forum Link</th>
+					<td>Yes</td>
+					<td>The link to the forum context. If you are hosting it under some "real" domain and the context path is "/", 
+							the "Forum Link" will be the address of your site, in most cases. </td>
+				</tr>
+				<tr>
+					<th scope="row">Website Link</th>
+					<td>Yes</td>
+					<td>The link to your website.</td>
+				</tr>
+				<tr class="odd">
+					<th scope="row">Administrator Password</th>
+					<td>Yes</td>
+					<td>Type the password of the administrator (<i>Admin</i> user).</td>
+				</tr>
+							
+		</tbody>		
+		</table>
 
 <p>Now you can click the "Next Step "button. You will see the page shown in Image 2, which that contains a summary of your choices.</p>
 
