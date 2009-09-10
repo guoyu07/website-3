@@ -8,6 +8,19 @@
     <div id="cnt_cnt">
 		<%@include file="jforum_box.jsp"%>
 
+	<div class="size2 fr text1" id="bg-gray">
+        	<h2>Key features navigation</h2>
+		<ul class="ul-orange">
+		    <li><a href="">Installation</a></li>
+		    <li><a href="">General</a></li>
+		    <li><a href="">Posting Messages</a></li>
+		    <li><a href="">Moderation</a></li>
+		    <li><a href="">Permissions & Security</a></li>
+		    <li><a href="">Customization & Extensiblity</a></li>
+		    <li><a href="">Users</a></li>
+		</ul>
+        </div><!-- box size2-->
+
 	<div class="size1 fl text1">
         	<h2>Features</h2>
            	<p>
