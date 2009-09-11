@@ -11,13 +11,13 @@
 	<div class="size2 fr text1" id="bg-gray">
         	<h2>Key features navigation</h2>
 		<ul class="ul-orange">
-		    <li><a href="">Installation</a></li>
-		    <li><a href="">General</a></li>
-		    <li><a href="">Posting Messages</a></li>
-		    <li><a href="">Moderation</a></li>
-		    <li><a href="">Permissions & Security</a></li>
-		    <li><a href="">Customization & Extensiblity</a></li>
-		    <li><a href="">Users</a></li>
+		    <li><a href="#installation">Installation</a></li>
+		    <li><a href="#general">General</a></li>
+		    <li><a href="#messages">Posting Messages</a></li>
+		    <li><a href="#moderation">Moderation</a></li>
+		    <li><a href="#permSecurity">Permissions & Security</a></li>
+		    <li><a href="#customExtens">Customization & Extensiblity</a></li>
+		    <li><a href="#users">Users</a></li>
 		</ul>
         </div><!-- box size2-->
 
@@ -29,14 +29,14 @@
 		</p>
 
 		<!-- Installation -->
-		<div class="blue-title"><strong>Installation</strong></div>
+		<div class="blue-title"><strong><a name="installation">Installation</a></strong></div>
 		<div><img src="imgs/bg_hr.png" width="100%" height="5"></div>
 		<ul class="ul-orange">
 			<li>Easy installation through graphical web interface </li>
 		</ul>
 
 		<!-- General -->
-		<div class="blue-title"><strong>General</strong></div>
+		<div class="blue-title"><strong><a name="general">General</a></strong></div>
 		<div><img src="imgs/bg_hr.png" width="100%" height="5"></div>
 		<ul class="ul-orange">
 			<li>Unlimited forums, categories, and topics</li>
@@ -51,7 +51,7 @@
 		</ul>
 
 		<!-- Posting Messages -->
-		<div class="blue-title"><strong>Posting Messages</strong></div>
+		<div class="blue-title"><strong><a name="messages">Posting Messages</a></strong></div>
 		<div><img src="imgs/bg_hr.png" width="100%" height="5"></div>
 		<ul class="ul-orange">
 			<li>File Attachments, with fully customizable options</li>
@@ -66,7 +66,7 @@
 		</ul>
 
 		<!-- Moderation -->
-		<div class="blue-title"><strong>Moderation</strong></div>
+		<div class="blue-title"><strong><a name="moderation">Moderation</a></strong></div>
 		<div><img src="imgs/bg_hr.png" width="100%" height="5"></div>
 		<ul class="ul-orange">
 			<li>Easy to moderate</li>
@@ -76,7 +76,7 @@
 		</ul>
 
 		<!-- Permissions & Security -->
-		<div class="blue-title"><strong>Permissions & Security</strong></div>
+		<div class="blue-title"><strong><a name="permSecurity">Permissions & Security</a></strong></div>
 		<div><img src="imgs/bg_hr.png" width="100%" height="5"></div>
 		<ul class="ul-orange">
 			<li>Read-only forums - Forums where is not possible to post new messages, just reading </li>
@@ -87,7 +87,7 @@
 		</ul>
 
 		<!-- Customization & Extensiblity -->
-		<div class="blue-title"><strong>Customization & Extensiblity</strong></div>
+		<div class="blue-title"><strong><a name="customExtens">Customization & Extensiblity</a></strong></div>
 		<div><img src="imgs/bg_hr.png" width="100%" height="5"></div>
 		<ul class="ul-orange">
 			<li>Easy and fast development for any other data source</li>
@@ -100,7 +100,7 @@
 		</ul>
 
 		<!-- Users -->
-		<div class="blue-title"><strong>Users</strong></div>
+		<div class="blue-title"><strong><a name="users">Users</a></strong></div>
 		<div><img src="imgs/bg_hr.png" width="100%" height="5"></div>
 		<ul class="ul-orange">
 			<li>Member Listing</li>
