@@ -175,10 +175,10 @@ table tfoot td, table tfoot th, table tfoot tr {text-align: left; font: 120%  "L
 			#button_release:hover {color:#003;}
 			
 			#bg-gray{
-				background-image:url(../imgs/screenshots.png);
+				/*background-image:url(../imgs/screenshots.png);*/
+				background-color: #EFEFEF;
 				background-repeat:no-repeat;
 				background-position:20px 30px;
-				height:300px;
 				overflow:hidden;
 				display:block;
 				text-align:left;

@@ -10,7 +10,6 @@
         
         <div class="size2 fr text1" id="bg-gray">
         	<h2>Installation &amp; configuration</h2>
-			<p>jforum provides a graphical installer through the web browser, which simplifies the entire process.</p>
 			<p>Please read the<a href="install.jsp"> installation instructions</a> before you start, so you dont't run into any problems. </p>
 			
 			<p><strong>Upgrading</strong></p>
@@ -18,7 +17,7 @@
 			<p>If you are going to upgrade your jforum installation, <a href="upgrade.jsp">check out the instructions here</a>. </p>
 			
 			<p><strong>Bugs</strong></p>
-			<p>If you ran into a problem, <a href="bugs.jsp">check out the bug reporting tool</a>. 
+			<p>If you ran into a problem, <a href="http://github.com/jforum/jforum3/issues">check out the bug reporting tool</a>. 
 				The <a href="community.jsp">forums</a> are a good place to ask for information as well. </p>
         </div><!-- box size2-->
         	

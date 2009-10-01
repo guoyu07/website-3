@@ -8,6 +8,7 @@
     <div id="cnt_cnt">
 		<%@include file="jforum_box.jsp"%>
 
+		<!--
 	<div class="size2 fr text1" id="bg-gray">
         	<h2>Key features navigation</h2>
 		    <p><img src="imgs/blueAndPointy.png" alt="arrow"/> <a href="#installation">Installation</a></p>
@@ -17,7 +18,7 @@
 		    <p><img src="imgs/blueAndPointy.png" alt="arrow"/><a href="#permSecurity">Permissions & Security</a></p>
 		    <p><img src="imgs/blueAndPointy.png" alt="arrow"/><a href="#customExtens">Customization & Extensiblity</a></p>
 		    <p><img src="imgs/blueAndPointy.png" alt="arrow"/><a href="#users">Users</a></p>
-        </div><!-- box size2-->
+        </div>--><!-- box size2-->
 
 	<div class="size1 fl text1">
         	<h2>Features</h2>
