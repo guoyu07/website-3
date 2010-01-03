@@ -9,7 +9,7 @@
 		<%@include file="jforum_box.jsp"%>
 
 	<div class="size1 fl text1">
-        	<h2>Installation and configuration &raquo; manual install</h2>
+        	<h2>Installation and config &raquo; manual install for 2.1.8</h2>
            	<p>Here will be shown how to manually configure and install JForum. It is assumed that the you has some knowledge on how to install / configure a Java servlet Container ( or already has one up and running ), and the database is properly configured.</p>
 
 <p>For automated installation, check the <a href="install.jsp">Installation and configuration &raquo; wizard</a> section.</p>

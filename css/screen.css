@@ -130,7 +130,7 @@ table tfoot td, table tfoot th, table tfoot tr {text-align: left; font: 120%  "L
 			.current_page { background-image:url(../imgs/btn_bg.png);  }
 			
 			/*codigo para identificar quando o mouse hover estiver ativado*/
-			ul.menu li a:hover#btn_home_menu,ul.menu li a:hover#btn_download_menu,ul.menu li a:hover#btn_team_menu,ul.menu li a:hover#btn_production_menu,
+			ul.menu li a:hover#btn_community_menu,ul.menu li a:hover#btn_home_menu,ul.menu li a:hover#btn_download_menu,ul.menu li a:hover#btn_team_menu,ul.menu li a:hover#btn_production_menu,
 			ul.menu li a:hover#btn_features_menu,ul.menu li a:hover#btn_contactus_menu{
 				background-image:url(../imgs/btn_bg.png); 
 				background-repeat:no-repeat; 

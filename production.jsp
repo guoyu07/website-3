@@ -8,9 +8,7 @@
     <div id="cnt_cnt">
 		<%@include file="jforum_box.jsp"%>
 
-	<div class="size1 fl text1">
-        	<h2>JForum in production</h2>
-        </div><!-- size 1-->
+     	<div align="left"><h2>JForum in production</h2></div>
            	
 		<table summary="">
 			<caption></caption>

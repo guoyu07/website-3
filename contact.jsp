@@ -10,7 +10,8 @@
         
         <div class="size1 fl text1">
         	<h2>Contact</h2>
-           	<p><a href="mailto:contact@jforum.net" class="blue">contact@jforum.net</a></p>
+           	<p>To contact the JForum Team, please send an email to <a href="mailto:contact@jforum.net" class="blue">contact@jforum.net</a>. 
+			Please note that we do not provide any kind or help or support via email. Please use the <a href="/forums/list.page">forums</a> for that.</p>
         </div><!-- size 1-->
     </div><!-- cnt cnt -->
 </div><!-- content wrapper -->

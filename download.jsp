@@ -35,19 +35,17 @@
 				spent thousands of hours developing the software.
 			</p>
 			
-			<p>
-				JForum has its source code open under the terms of the <a href="http://en.wikipedia.org/wiki/BSD_license" class="blue">BSD license</a>, 
-				which basically states that you can use and customize jforum without any cost. 
-			</p>
+			<p>&nbsp;</p>
+			<p><strong>Files for version <em>2.1.8 (stable)</em></strong></p>
+			<p><a href="download_file.jsp?type=zipStable">Download jforum ZIP package </a></p>
+			<p><a href="download_file.jsp?type=warStable">Download jforum WAR package </a></p>
+			<p><a href="download_file.jsp?type=srcStable">Download jforum source code </a></p>
 			
-			<p>
-				Although, you are required to maintain full credits to the project, and we sincerely ask you to link back to us whenever possible. 
-			</p>
-			
-			<p><strong>Files</strong></p>
-			<p><a href="download_file.jsp?type=zip">Download jforum ZIP package </a></p>
-			<p><a href="download_file.jsp?type=war">Download jforum WAR package </a></p>
-			<p><a href="download_file.jsp?type=src">Download jforum source code </a></p>
+			<p>&nbsp;</p>
+			<p><strong>Files for version <em>3.0 (beta)</em></strong></p>
+			<p><a href="download_file.jsp?type=zipBeta">Download jforum ZIP package </a></p>
+			<p><a href="download_file.jsp?type=srcBeta">Download jforum source code </a></p>
+			<p>To get the latest source code version, please check out <a href="http://github.com/jforum/jforum3">http://github.com/jforum/jforum3</a></p>
         </div><!-- size 1-->
     </div><!-- cnt cnt -->
 </div><!-- content wrapper -->

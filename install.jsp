@@ -9,13 +9,12 @@
 		<%@include file="jforum_box.jsp"%>
 
 	<div class="size1 fl text1">
-        	<h2>Installation and configuration &raquo; wizard</h2>
+        	<h2>Installation and configuration &raquo; wizard for 2.1.8</h2>
            	<p>In this section is shown how to configure and install JForum using the Web Wizard interface. It is assumed that you have some knowledge on how to install/configure a Java servlet container (or already have one up and running), and the database is properly configured.</p>
 
 <p>For manual installation instructions, check the <a href="install_no_wizard.jsp">Installation and configuration &raquo; manual Install</a> section.</p>
 
-<p>Note: These instructions are for the installation of JForum, release version 2.1.8. Some of the steps here described may not be valid for older versions, which are no longer supported. 
-		</p>
+<p><em>Note: These instructions are for the installation of JForum, release version 2.1.8. Some of the steps here described may not be valid for older versions, which are no longer supported. </em></p>
 
 		<!-- Installation -->
 		<div class="blue-title"><strong>Downloading JForum</strong></div>

@@ -9,21 +9,28 @@ static {
 	}
 }
 
-private static final String VERSION = "jforum-2.1.8";
-private static final String CONNECTION_URL = "jdbc:mysql://localhost/jforum?user=root&password=";
+private static final String VERSION_STABLE = "jforum-2.1.8";
+private static final String VERSION_BETA = "jforum-3.0";
+private static final String CONNECTION_URL = "jdbc:mysql://localhost/jforum?user=root&password=root";
 %>
 <%
 String type = request.getParameter("type");
 String file = null;
 
-if ("zip".equals(type)) {
-	file = VERSION + ".zip";
+if ("zipStable".equals(type)) {
+	file = VERSION_STABLE + ".zip";
 }
-else if ("war".equals(type)) {
-	file = VERSION + ".war";
+else if ("warStable".equals(type)) {
+	file = VERSION_STABLE + ".war";
 }
-else if ("src".equals(type)) {
-	file = VERSION + "-src.zip";
+else if ("srcStable".equals(type)) {
+	file = VERSION_STABLE + "-src.zip";
+}
+else if ("zipBeta".equals(type)) {
+	file = VERSION_BETA + ".zip";
+}
+else if ("srcBeta".equals(type)) {
+	file = VERSION_BETA + "-src.zip";
 }
 
 if (file == null) {
