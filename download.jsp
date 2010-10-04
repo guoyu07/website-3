@@ -61,12 +61,12 @@
 			
 			<p>&nbsp;</p>
 			<p><strong>Files for version <em>2.1.8 (stable)</em></strong></p>
-			<p><a href="jforum-2.1.8.zip">Download jforum ZIP package </a></p>
+			<p><a href="jforum-2.1.8.zip" onClick="_gaq.push(['_trackEvent', 'download', 'jforum2', '2.1.8']); document.location = 'jforum-2.1.8.zip';">Download jforum ZIP package </a></p>
 			<p><a href="http://github.com/jforum/jforum2/zipball/master">Download jforum source code </a></p>
 			
 			<p>&nbsp;</p>
 			<p><strong>Files for version <em>3.0 (beta)</em></strong></p>
-			<p><a href="http://github.com/jforum/jforum3/zipball/master">Download jforum 3 source code </a></p>
+			<p><a href="http://github.com/jforum/jforum3/zipball/master" onClick="_gaq.push(['_trackEvent', 'download', 'jforum3', '3.0-github']); document.location = 'http://github.com/jforum/jforum3/zipball/master';">Download jforum 3 source code </a></p>
 			<p>To get the latest source code version, please check out <a href="http://github.com/jforum/jforum3">http://github.com/jforum/jforum3</a></p>
         </div><!-- size 1-->
     </div><!-- cnt cnt -->
