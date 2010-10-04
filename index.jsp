@@ -1,12 +1,13 @@
-<%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
-<%@include file="header.jsp"%>
+<?include("header.jsp")?>
 
 <div id="content_wrapper">    
-	<c:set var="currentPage" value="home"/>
-	<%@include file="menu.jsp"%>
+	<?
+	$currentPage = "home";
+	include("menu.jsp")
+	?>
 	
     <div id="cnt_cnt">
-		<%@include file="jforum_box.jsp"%>
+		<?include ("jforum_box.jsp")?>
         
         <div class="size4 fr text1">
         	<img src="imgs/taketour.png" />
@@ -29,4 +30,4 @@
     </div><!-- cnt cnt -->
 </div><!-- content wrapper -->
 
-<%@include file="footer.jsp"%>
+<?include("footer.jsp")?>

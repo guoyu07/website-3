@@ -3,8 +3,10 @@
     	<h1 id="jforum-logo_footer"><span>jforum logo</span></h1>
         <div class="quickbox fr">
         	<h2>Connect With Us</h2>
-            <a id="email-link" href="mailto:contact@jforum.net"><span>Email: </span>contact@jforum.net</a>
+            <a id="email-link" href="contact.jsp"><span>Email: </span>Access the contact page</a>
+			<!--
             <a id="twitter-link" href="http://twitter.com/jforum" target="_blank"><span>Twitter: </span>http://twitter.com/jforum</a>
+			-->
             <img class="large_separator" src="imgs/large-footer-separator.png" alt="separator" />
             <h2>About jforum</h2>
             <p>jforum is a discussion board software - a forum - widely kown for half a decade already. It powers many big forums around the globe, 
@@ -26,7 +28,7 @@
         </div><!-- quick box -->
         <div id="hr_box">
         	<div id="design_note"><span>Design by:</span><a href="http://blogfullbliss.com/"><img src="imgs/blogfullbliss_logo.png" /></a></div>
-            <p id="copyright">Copyright &copy;  <a href="team.jsp">The JForum Team</a> |  All Rights Reserved </p>
+            <p id="copyright">Copyright &copy;  <a href="team.jsp" style="color: #000;">The JForum Team</a> |  All Rights Reserved </p>
         </div><!-- hr box -->
     </div><!-- footer wrapper cnt-->
 </div><!-- footer wrapper-->

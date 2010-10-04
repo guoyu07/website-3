@@ -1,29 +1,27 @@
-<%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
-<%@include file="header.jsp"%>
+<?include("header.jsp")?>
 
 <div id="content_wrapper">    
-	<c:set var="currentPage" value="team"/>
-	<%@include file="menu.jsp"%>
+	<?
+	$currentPage = "team";
+	include("menu.jsp")
+	?>
 	
     <div id="cnt_cnt">
-		<%@include file="jforum_box.jsp"%>
+		<?include ("jforum_box.jsp")?>
 
 	<div class="size1 fl text1">
         	<h2>JForum team &raquo; people behind JForum</h2>
 
 		<p>A project only evolves with feedback of users and contribution - be it programming, documenting, making graphics and so other many areas - of so many valuable people. Met some of the people who helped - or are still helping - JForum to grow.</p>
 
-		<p>People come and go all the time. Many times we receive help because an user needs some feature more quickly, or then he / she got some free time to contribute for a while, and is that kind of contribution which makes the project grow up. You are welcome to <a href="join.jsp">join us</a>.</p>
+		<p>People come and go all the time. Many times we receive help because an user needs some feature more quickly, or then he / she got some free time to contribute for a while, and is that kind of contribution which makes the project grow up.</p>
            	
-<div class="blue-title"><strong>Currently active</strong></div>
 		<table summary="">
 			<caption></caption>
 			<thead>
 				<tr>
 					<th scope="col">Name</th>
-					<th scope="col">Contact</th>
 					<th scope="col">Role</th>
-					<th scope="col">Bio</th>
 				</tr>
 			</thead>	
 			<tfoot>
@@ -32,38 +30,12 @@
 			<tbody>
 				<tr>
 					<th scope="row">Rafael Steil</th>
-					<td>...</td>
 					<td>Lead</td>
-					<td>...</td>
-				</tr>
-				<tr class="odd">
-					<th scope="row">Diego Plentz</th>
-					<td>...</td>
-					<td>Developer</td>
-					<td>...</td>
 				</tr>
 				<tr>
 					<th scope="row">monroe</th>
-					<td>...</td>
 					<td>Part of the JForum Team in the forums</td>
-					<td>...</td>
 				</tr>
-		</tbody>		
-		</table>
-<br/>
-<div class="blue-title"><strong>Not currently active contributors</strong></div>
-		<table summary="">
-			<caption></caption>
-			<thead>
-				<tr>
-					<th scope="col">Name</th>
-					<th scope="col">Role</th>
-				</tr>
-			</thead>	
-			<tfoot>
-				<tr></tr>
-			</tfoot>
-			<tbody>
 				<tr>
 					<th scope="row">James Yong</th>
 					<td>Did a lot of helping fixing bugs</td>
@@ -175,11 +147,8 @@
 		</tbody>		
 		</table>
 <br/>
-<div class="blue-title"><strong>Aren't you here?</strong></div>
-
-<p>If we forgot to put your name in this list, please contact us and we'll add it immediately.</p>
 
         </div><!-- size 1-->
     </div><!-- cnt cnt -->
 </div><!-- content wrapper -->
-<%@include file="footer.jsp"%>
+<?include("footer.jsp")?>

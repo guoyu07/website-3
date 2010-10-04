@@ -1,12 +1,13 @@
-<%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
-<%@include file="header.jsp"%>
+<?include("header.jsp")?>
 
 <div id="content_wrapper">    
-	<c:set var="currentPage" value="install_no_wizard"/>
-	<%@include file="menu.jsp"%>
+	<?
+	$currentPage = "install_no_wizard";
+	include("install.jsp")
+	?>
 	
     <div id="cnt_cnt">
-		<%@include file="jforum_box.jsp"%>
+		<?include ("jforum_box.jsp")?>
 
 	<div class="size1 fl text1">
         	<h2>Installation and config &raquo; manual install for 2.1.8</h2>
@@ -184,4 +185,4 @@ Also, please keep in mind that if you are upgrading JForum you need to take a lo
         </div><!-- size 1-->
     </div><!-- cnt cnt -->
 </div><!-- content wrapper -->
-<%@include file="footer.jsp"%>
+<?include("footer.jsp")?>

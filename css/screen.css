@@ -11,7 +11,10 @@ body {
 	font-size:12px;
 	color:#000;
 	background-color:#639EAD;	
-	}
+}
+
+a {color: #639EAD; text-decoration: none;}
+a:hover {text-decoration: underline;}
 
 .highlightMacro {
 background-color:#F0F0F0;
@@ -64,7 +67,7 @@ table tfoot td, table tfoot th, table tfoot tr {text-align: left; font: 120%  "L
 .text1{text-align:left;}
 
 .text1 h2{font-size:24px; margin:0px 0px 20px 20px; padding:0px; display:block;}
-.text1 p{margin-left:20px; padding:0px; display:block;}
+.text1 p{margin-left:20px; padding:0px; display:block; font-size: 14px; line-height: 23px;}
 .text1 img { margin-left:20px; display:block; padding:0px;}
 
 /*content*/
@@ -200,8 +203,8 @@ table tfoot td, table tfoot th, table tfoot tr {text-align: left; font: 120%  "L
 				#bluesash h2{font-size:24px; margin:0px auto 20px auto; padding:0px; display:block; width:350px;}
 				#bluesash p{font-size:1em; margin:0px auto 20px auto; padding:0px; display:block; width:350px; text-align:left;}				
 				#bluesash p.txt3{color:#FFF; position:absolute; top:177px; left:50px;}
-				#bluesash p.txt3 a{color:#FFF; font-weight:bold;}
-				#bluesash p.txt3 a:hover{color:#009;}
+				#bluesash p.txt3 a{color:#FFF; font-weight:bold; text-decoration: none;}
+				#bluesash p.txt3 a:hover{text-decoration: underline;}
 				
 				#bluebtn{
 					background-image:url(../imgs/bg_blue-btn.png); /*281x89*/
@@ -218,7 +221,6 @@ table tfoot td, table tfoot th, table tfoot tr {text-align: left; font: 120%  "L
 					padding:0px;					
 					color:#FFF; 		
 					}
-					a#bluebtn:hover {color:#003;}
 					a#bluebtn span.txt1 { 
 						display:block; 
 						font-size:18px; 
@@ -278,7 +280,7 @@ table tfoot td, table tfoot th, table tfoot tr {text-align: left; font: 120%  "L
 		}
 		.quickbox p {color:#FFF; text-align:justify; font-weight:normal; margin:0px; padding:0px;}
 		.quickbox a {color:#FFF; text-decoration:none; font-weight:bold;}
-		.quickbox a:hover{color:#006;}
+		.quickbox a:hover{text-decoration: underline;}
 		.quickbox a span {font-weight:normal;}
 		.quickbox h2 {color:#FFF; text-align:left; font-size:18px; display:block; margin:0px; padding:0px 0px 15px 0px;}
 		
@@ -291,7 +293,7 @@ table tfoot td, table tfoot th, table tfoot tr {text-align: left; font: 120%  "L
 			padding:17px 0px 17px 48px;			
 			}
 		#twitter-link { background-image:url(../imgs/twitter-icon.png); float:left; }
-		#email-link { background-image:url(../imgs/email-icon.png); float:right; }
+		#email-link { background-image:url(../imgs/email-icon.png); float:left; }
 		
 		a#bnt_clock, a#btn_customizable, a#btn_secure, a#btn_world, a#btn_database, a#btn_source{
 			background-position:left top;

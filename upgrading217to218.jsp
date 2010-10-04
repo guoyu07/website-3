@@ -1,12 +1,12 @@
-<%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
-<%@include file="header.jsp"%>
+<?include("header.jsp")?>
 
 <div id="content_wrapper">    
-	<c:set var="currentPage" value="upgrading217to218"/>
-	<%@include file="menu.jsp"%>
-	
+	<?
+	$currentPage = "upgrading217to218";
+	include("menu.jsp")
+	?>
     <div id="cnt_cnt">
-		<%@include file="jforum_box.jsp"%>
+		<?include ("jforum_box.jsp")?>
 
 	<div class="size1 fl text1">
         	<h2>Upgrading from version 2.1.7 to 2.1.8</h2>
@@ -115,4 +115,4 @@ sqlplus @oracle_2.1.7_to_2.1.8.sql
     </div><!-- cnt cnt -->
 </div><!-- content wrapper -->
 
-<%@include file="footer.jsp"%>
+<?include("footer.jsp")?>

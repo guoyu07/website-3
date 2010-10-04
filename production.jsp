@@ -1,14 +1,17 @@
-<%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
-<%@include file="header.jsp"%>
+<?include("header.jsp")?>
 
 <div id="content_wrapper">    
-	<c:set var="currentPage" value="production"/>
-	<%@include file="menu.jsp"%>
-	
+	<?
+	$currentPage = "production";
+	include("menu.jsp")
+	?>
     <div id="cnt_cnt">
-		<%@include file="jforum_box.jsp"%>
+		<?include ("jforum_box.jsp")?>
 
-     	<div align="left"><h2>JForum in production</h2></div>
+     	<div align="left"><h2>jforum in production</h2></div>
+		<p align="left">
+			This is a very short list of some forums powered by jforum. 
+		</p>
            	
 		<table summary="">
 			<caption></caption>
@@ -25,6 +28,12 @@
 			</tfoot>
 			<tbody>
 				<tr>
+					<th scope="row">Electronic Arts</th>
+					<td><a href="http://www.javaranch.com">http://www.ea.com/</a></a></td>
+					<td>Varios URLs</td>
+					<td>EA uses JForum in many of its games' forums to power their communities</td>
+				</tr>
+				<tr>
 					<th scope="row">JavaRanch</th>
 					<td><a href="http://www.javaranch.com">http://www.javaranch.com</a></a></td>
 					<td><a href="http://www.coderanch.com/forums">http://www.coderanch.com/forums</a></td>
@@ -34,13 +43,7 @@
 					<th scope="row">GUJ</th>
 					<td><a href="http://www.guj.com.br">http://www.guj.com.br</a></td>
 					<td><a href="http://www.guj.com.br/forums/list.java">http://www.guj.com.br/forums/list.java</a></td>
-					<td>GUJ is a virtual user group from Brazil. We are one of the most influent and active group in the community. GUJ was stared at August 2002. Having 50000+ users, who every day discuss about Java, make articles and disseminates Java in the country, GUJ is very proud to help the Java Community grow</td>
-				</tr>
-				<tr>
-					<th scope="row">PortalJava</th>
-					<td><a href="http://www.portaljava.com">http://www.portaljava.com</a></td>
-					<td><a href="http://www.portaljava.com/forum/forums/list.page">http://www.portaljava.com/forum/forums/list.page</a></td>
-					<td>Portal Java is the first brazil`s web-site in genre, it was born on may 2002, currently it has more than 30.000 (THIRTY THOUSAND) registered users</td>
+					<td>GUJ is a virtual user group from Brazil. We are one of the most influent and active group in the community. GUJ was stared at August 2002. Having 100k+ users, who every day discuss about Java, make articles and disseminates Java in the country, GUJ is very proud to help the Java Community grow. The site as over a millon messages to date.</td>
 				</tr>
 				<tr class="odd">
 					<th scope="row">Spore</th>
@@ -142,4 +145,4 @@
 		</table>
     </div><!-- cnt cnt -->
 </div><!-- content wrapper -->
-<%@include file="footer.jsp"%>
+<?include("footer.jsp")?>

@@ -1,5 +1,4 @@
-<%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
-<%@include file="header.jsp"%>
+<?include("header.jsp")?>
 
 <script type="text/javascript">
 function show_big(image) {
@@ -8,11 +7,12 @@ function show_big(image) {
 </script>
 
 <div id="content_wrapper">
-	<c:set var="currentPage" value="screenshots"/>
-	<%@include file="menu.jsp"%>
-    
+	<?
+	$currentPage = "screenshots";
+	include("menu.jsp")
+	?>
     <div id="cnt_cnt">
-		<%@include file="jforum_box.jsp"%>
+		<?include ("jforum_box.jsp")?>
         
         <p><strong>Click on the images to see a larger version</strong></p>
 		
@@ -80,4 +80,4 @@ function show_big(image) {
         </div><!-- size 1-->
     </div><!-- cnt cnt -->
 </div><!-- content wrapper -->
-<%@include file="footer.jsp"%>
+<?include("footer.jsp")?>
