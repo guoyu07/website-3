@@ -17,7 +17,7 @@
         <div class="quickbox fl">
         	<h2>Key Features</h2>
             <a class="fr" id="btn_world" href="features.jsp">Multi language support</a>            
-            <a class="fl" id="bnt_clock" href="features.jsp">Fas. Really fast.</a>
+            <a class="fl" id="bnt_clock" href="features.jsp">Fast. Really fast.</a>
             <img class="short_separator" src="imgs/short_separator.png" />
             <a class="fr" id="btn_database" href="features.jsp">Multi databases</a>            
             <a class="fl" id="btn_customizable" href="features.jsp">Customizable user interface</a>
