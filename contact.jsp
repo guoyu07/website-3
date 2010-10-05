@@ -12,7 +12,7 @@
         <div class="size1 fl text1">
         	<h2>Contact</h2>
            	<p>
-				jforum is <em>Donation Ware</em>, which means that we relly on contributions from our users to keep maintaining the project. 
+				jforum is <em>Donation Ware</em>, which means that we really on contributions from our users to keep maintaining the project. 
 				Please note that we do not provide any kind or help or support via email.
 			</p>
 			
