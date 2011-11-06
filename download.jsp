@@ -18,7 +18,7 @@
 			<p>If you are going to upgrade your jforum installation, <a href="upgrading217to218.jsp">check out the instructions here</a>. </p>
 			
 			<p><strong>Bugs</strong></p>
-			<p>If you ran into a problem, <a href="http://github.com/jforum/jforum2/issues">check out the bug reporting tool</a>. 
+			<p>If you ran into a problem, <a href="http://github.com/rafaelsteil/jforum2/issues">check out the bug reporting tool</a>. 
         </div><!-- box size2-->
         	
         <div class="size1 fl text1">
@@ -62,12 +62,12 @@
 			<p>&nbsp;</p>
 			<p><strong>Files for version <em>2.1.8 (stable)</em></strong></p>
 			<p><a href="jforum-2.1.8.zip" onClick="_gaq.push(['_trackEvent', 'download', 'jforum2', '2.1.8']); document.location = 'jforum-2.1.8.zip';">Download jforum ZIP package </a></p>
-			<p><a href="http://github.com/jforum/jforum2/zipball/master">Download jforum source code </a></p>
+			<p><a href="http://github.com/rafaelsteil/jforum2/zipball/master">Download jforum source code </a></p>
 			
 			<p>&nbsp;</p>
 			<p><strong>Files for version <em>3.0 (beta)</em></strong></p>
-			<p><a href="http://github.com/jforum/jforum3/zipball/master" onClick="_gaq.push(['_trackEvent', 'download', 'jforum3', '3.0-github']); document.location = 'http://github.com/jforum/jforum3/zipball/master';">Download jforum 3 source code </a></p>
-			<p>To get the latest source code version, please check out <a href="http://github.com/jforum/jforum3">http://github.com/jforum/jforum3</a></p>
+			<p><a href="http://github.com/rafaelsteil/jforum3/zipball/master" onClick="_gaq.push(['_trackEvent', 'download', 'jforum3', '3.0-github']); document.location = 'http://github.com/rafaelsteil/jforum3/zipball/master';">Download jforum 3 source code </a></p>
+			<p>To get the latest source code version, please check out <a href="http://github.com/rafaelsteil/jforum3">http://github.com/rafaelsteil/jforum3</a></p>
         </div><!-- size 1-->
     </div><!-- cnt cnt -->
 </div><!-- content wrapper -->

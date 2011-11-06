@@ -18,7 +18,7 @@
 			
 			<p>
 				If you need any kind of urgent help or assistance, please consider making a donation as well, we really appreciate. To contact us, please send an email to 
-				<em>contact@jforum.net</em>.
+				<em>contact@jforum.net</em>. 
 			</p>
         </div><!-- size 1-->
     </div><!-- cnt cnt -->
